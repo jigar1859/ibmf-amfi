@@ -1,0 +1,29 @@
+html, body {
+	/* 	background-color: #efefef; */
+	height: 100%;
+}
+th.tableHeader {
+	text-align: center;
+}
+
+span.spacing {
+	margin-right: 10px;
+}
+
+input.custom-width {
+	width: 200px;
+}
+
+input.spacing {
+	margin-right: 5px;
+}
+
+table-dark>td {
+	background-color: #bb1818;
+}
+
+#grad1 {
+	background-color: #efefef;
+	/* For browsers that do not support gradients */
+	/* 	background-image: linear-gradient(to bottom, #efefef, green); */
+}
