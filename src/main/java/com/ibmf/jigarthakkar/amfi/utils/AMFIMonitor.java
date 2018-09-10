@@ -24,7 +24,7 @@ public class AMFIMonitor {
 	}
 
 	@Scheduled(cron = "0/300 * * * * ?")
-	// @Scheduled(cron = "0 0 0/6 1/1 * ? *")
+	// @Scheduled(cron = "0 0 */3 * * *")
 	public void publish() {
 		String response = NetworkUtils.getRequest(Constants.amfiNAVALL);
 		String[] mList = response.split("\n");
