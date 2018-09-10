@@ -16,7 +16,7 @@ public class NetworkUtils {
 
 	public static String getRequest(String url) {
 		Request request = new Request.Builder()
-				.cacheControl(new CacheControl.Builder().maxStale(12, TimeUnit.HOURS).build()).url(url).build();
+				.cacheControl(new CacheControl.Builder().maxStale(1, TimeUnit.HOURS).build()).url(url).build();
 		Response response = null;
 
 		try {

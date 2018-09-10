@@ -1,5 +1,26 @@
-html, body {
-	/* 	background-color: #efefef; */
+html{
+	font-size: 10rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 12rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 14rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+body {
 	height: 100%;
 }
 th.tableHeader {
