@@ -25,6 +25,10 @@ body {
 	height: 100%;
 }
 
+.carousel-indicators li {
+	visibility: hidden;
+}
+
 .container {
 	display: flex; /* or inline-flex */
 }
