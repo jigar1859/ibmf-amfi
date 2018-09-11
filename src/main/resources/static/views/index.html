@@ -4,7 +4,7 @@
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport"
-	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet"
@@ -22,10 +22,14 @@
 <title>Indiabulls AMC NAV Data</title>
 </head>
 <body ng-app="demo" id="grad1">
-	<div class="carousel" ng-controller="UserController">
-		<div class="container-fluid">
+	<div class="container-fluid" align="right" padding="10px">
+		<img src="/img/AMCLogo.png" alt="AMC Logo" width="250px"
+			height="100px">
+	</div>
+	<div class="container-fluid">
+		<div class="carousel" ng-controller="UserController">
 			<div id="carouselExampleIndicators" class="carousel slide"
-				data-ride="carousel">
+				data-ride="carousel" data-interval="10000">
 				<ol class="carousel-indicators">
 					<li data-target="#carouselExampleIndicators" data-slide-to="0"
 						class="active"></li>
@@ -41,12 +45,15 @@
 					<li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
 				</ol>
 				<div id="carousel" class="carousel-inner">
+
 					<!-- Indiabulls Gilt Fund -->
 					<div id="carouselItem" class="carousel-item active">
+
+						<!--Table -->
 						<div id="ibmf-guiltfund" class="table-responsive">
 							<div class="heading_guilt,jumbotron">
-								<h1 style="color: green" class="text-center font-italic">Indiabulls
-									Gilt Fund</h1>
+								<h2 style="color: green" class="text-center font-italic">Indiabulls
+									Gilt Fund</h2>
 							</div>
 							<table border="1"
 								class="table table-striped table-bordered table-hover">
@@ -61,10 +68,34 @@
 								</thead>
 							</table>
 						</div>
+
+						<!-- Investment Objective and Risk-O-Meter -->
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md" align="center">
+									<h3 style="color: green" class="text-center font-italic">Risk-O-Meter</h3>
+									<img src="/img/3.png" align="center">
+								</div>
+								<div class="col-md">
+									<div class="col-md" align="center">
+										<h3 style="color: green" class="text-center font-italic">Investment
+											Objective</h3>
+										<p align="left">"The scheme seeks to generate income and
+											capital appreciation by investing predominantly in sovereign
+											securities issued by Central Government (including Treasury
+											Bills) and/or by State Government, without any restriction on
+											the maturity of the portfolio. However, there is no assurance
+											that the investment objective of the scheme will be realized
+											and the scheme does not assure or guarantee any returns."</p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 
 					<!-- Indiabulls Liquid Fund -->
 					<div class="carousel-item">
+						<!--Table -->
 						<div id="ibmf-liquid-fund" class="table-responsive">
 							<div class="heading_guilt,jumbotron">
 								<h1 style="color: green" class="text-center font-italic">Indiabulls
@@ -83,10 +114,32 @@
 								</thead>
 							</table>
 						</div>
+
+						<!-- Investment Objective and Risk-O-Meter -->
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md" align="center">
+									<h3 style="color: green" class="text-center font-italic">Risk-O-Meter</h3>
+									<img src="/img/1.png" align="center">
+								</div>
+								<div class="col-md">
+									<div class="col-md" align="center">
+										<h3 style="color: green" class="text-center font-italic">Investment
+											Objective</h3>
+										<p align="left">"To provide a high level of liquidity with
+											returns commensurate with low risk through a portfolio of
+											money market & debt securities with maturity of upto 91days.
+											"</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
 					</div>
 
 					<!-- Indiabulls Income Fund -->
 					<div class="carousel-item">
+						<!--Table -->
 						<div id="ibmf-income-fund" class="table-responsive">
 							<div class="heading_guilt,jumbotron">
 								<h1 style="color: green" class="text-center font-italic">Indiabulls
@@ -106,6 +159,32 @@
 								</thead>
 							</table>
 						</div>
+
+						<!-- Investment Objective and Risk-O-Meter -->
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md" align="center">
+									<h3 style="color: green" class="text-center font-italic">Risk-O-Meter</h3>
+									<img src="/img/3.png" align="center">
+								</div>
+								<div class="col-md">
+									<div class="col-md" align="center">
+										<h3 style="color: green" class="text-center font-italic">Investment
+											Objective</h3>
+										<p align="left">"The primary investment objective of the
+											Scheme is to generate a steady stream of income and medium to
+											long term capital appreciation/gain through investment in
+											fixed income securities such that the Macaulay duration of
+											the portfolio is between 3 years – 4 years. Portfolio
+											Macaulay duration under anticipated adverse situation is 1
+											year to 4 years. However, there can be no assurance that the
+											investment objective of the Scheme will be achieved."</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
 					</div>
 
 					<!-- Indiabulls Short Term Fund -->
@@ -115,7 +194,7 @@
 								<h1 style="color: green" class="text-center font-italic">Indiabulls
 									Short Term Fund</h1>
 							</div>
-
+							<!--Table -->
 							<table border="1"
 								class="table table-striped table-bordered table-hover">
 								<thead>
@@ -129,10 +208,37 @@
 								</thead>
 							</table>
 						</div>
+
+
+						<!-- Investment Objective and Risk-O-Meter -->
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md" align="center">
+									<h3 style="color: green" class="text-center font-italic">Risk-O-Meter</h3>
+									<img src="/img/3.png" align="center">
+								</div>
+								<div class="col-md">
+									<div class="col-md" align="center">
+										<h3 style="color: green" class="text-center font-italic">Investment
+											Objective</h3>
+										<p align="left">"The Scheme will endeavor to generate
+											stable returns over short term with a low risk strategy while
+											maintaining liquidity through a portfolio comprising debt and
+											money market instruments such that the Macaulay duration of
+											the portfolio is between 1 year – 3 years. However, there can
+											be no assurance that the investment objective of the scheme
+											will be achieved."</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
 					</div>
 
 					<!-- Indiabulls Ultra Short Term Fund -->
 					<div class="carousel-item">
+						<!--Table -->
 						<div id="ibmf-income-fund" class="table-responsive">
 							<div class="heading_guilt,jumbotron">
 								<h1 style="color: green" class="text-center font-italic">Indiabulls
@@ -152,10 +258,32 @@
 								</thead>
 							</table>
 						</div>
+
+						<!-- Investment Objective and Risk-O-Meter -->
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md" align="center">
+									<h3 style="color: green" class="text-center font-italic">Risk-O-Meter</h3>
+									<img src="/img/2.png" align="center">
+								</div>
+								<div class="col-md">
+									<div class="col-md" align="center">
+										<h3 style="color: green" class="text-center font-italic">Investment
+											Objective</h3>
+										<p align="left">"To provide liquidity with returns
+											commensurate with low risk through a portfolio of money
+											market and debt securities such that the Macaulay duration of
+											the portfolio is between 3 months - 6 months."</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
 					</div>
 
 					<!-- Indiabulls Tax Savings Fund -->
 					<div class="carousel-item">
+						<!--Table -->
 						<div id="ibmf-income-fund" class="table-responsive">
 							<div class="heading_guilt,jumbotron">
 								<h1 style="color: green" class="text-center font-italic">Indiabulls
@@ -175,10 +303,34 @@
 								</thead>
 							</table>
 						</div>
+
+						<!-- Investment Objective and Risk-O-Meter -->
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md" align="center">
+									<h3 style="color: green" class="text-center font-italic">Risk-O-Meter</h3>
+									<img src="/img/4.png" align="center">
+								</div>
+								<div class="col-md">
+									<div class="col-md" align="center">
+										<h3 style="color: green" class="text-center font-italic">Investment
+											Objective</h3>
+										<p align="left">"The investment objective of the Scheme is
+											to generate long-term capital appreciation from a diversified
+											portfolio of predominantly equity and equity-related
+											Securities. The scheme shall offer tax benefits under Section
+											80C of the Income Tax Act. However, there is no assurance
+											that the investment objective of the Scheme will be realized
+											and the Scheme does not assure or guarantee any returns."</p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 
 					<!-- Indiabulls Blue Chip Fund -->
 					<div class="carousel-item">
+						<!--Table -->
 						<div id="ibmf-income-fund" class="table-responsive">
 							<div class="heading_guilt,jumbotron">
 								<h1 style="color: green" class="text-center font-italic">Indiabulls
@@ -198,11 +350,34 @@
 								</thead>
 							</table>
 						</div>
+
+						<!-- Investment Objective and Risk-O-Meter -->
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md" align="center">
+									<h3 style="color: green" class="text-center font-italic">Risk-O-Meter</h3>
+									<img src="/img/4.png" align="center">
+								</div>
+								<div class="col-md">
+									<div class="col-md" align="center">
+										<h3 style="color: green" class="text-center font-italic">Investment
+											Objective</h3>
+										<p align="left">"The primary investment objective of the
+											Scheme is to seek to provide long-term capital appreciation
+											from a portfolio that is invested predominantly in equity and
+											equity-related securities of blue-chip large-cap companies.
+											However there can be no assurance that the investment
+											objective of the scheme will be achieved."</p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 
 
 					<!-- Indiabulls Value Discovery Fund -->
 					<div class="carousel-item">
+						<!--Table -->
 						<div id="ibmf-income-fund" class="table-responsive">
 							<div class="heading_guilt,jumbotron">
 								<h1 style="color: green" class="text-center font-italic">Indiabulls
@@ -222,10 +397,37 @@
 								</thead>
 							</table>
 						</div>
+
+						<!-- Investment Objective and Risk-O-Meter -->
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md" align="center">
+									<h3 style="color: green" class="text-center font-italic">Risk-O-Meter</h3>
+									<img src="/img/4.png" align="center">
+								</div>
+								<div class="col-md">
+									<div class="col-md" align="center">
+										<h3 style="color: green" class="text-center font-italic">Investment
+											Objective</h3>
+										<p align="left">"The primary objective of the Scheme is to
+											seek to generate capital appreciation by investing in a
+											portfolio of Equity and Equity related securities of
+											companies that meet the relative value criteria and fall
+											within top 500 by market cap. A company is considered as
+											showing high relative value if it has a combination of higher
+											RoCE and higher earnings yield. However, there is no
+											assurance that the investment objective of the Scheme will be
+											realized and the Scheme does not assure or guarantee any
+											returns."</p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 
 					<!-- Indiabulls Arbitrage Fund -->
 					<div class="carousel-item">
+						<!--Table -->
 						<div id="ibmf-income-fund" class="table-responsive">
 							<div class="heading_guilt,jumbotron">
 								<h1 style="color: green" class="text-center font-italic">Indiabulls
@@ -245,10 +447,35 @@
 								</thead>
 							</table>
 						</div>
+
+						<!-- Investment Objective and Risk-O-Meter -->
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md" align="center">
+									<h3 style="color: green" class="text-center font-italic">Risk-O-Meter</h3>
+									<img src="/img/2.png" align="center">
+								</div>
+								<div class="col-md">
+									<div class="col-md" align="center">
+										<h3 style="color: green" class="text-center font-italic">Investment
+											Objective</h3>
+										<p align="left">"To generate income by predominantly
+											investing in arbitrage opportunities in the cash and
+											derivative segments of the equity markets and the arbitrage
+											opportunities available within the derivative segment and by
+											investing the balance in debt and money market instruments.
+											However, there is no assurance or guarantee that the
+											investment objective of the scheme will be realized."</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
 					</div>
 
 					<!-- Indiabulls Savings Income Fund -->
 					<div class="carousel-item">
+						<!--Table -->
 						<div id="ibmf-income-fund" class="table-responsive">
 							<div class="heading_guilt,jumbotron">
 								<h1 style="color: green" class="text-center font-italic">Indiabulls
@@ -267,6 +494,29 @@
 									</tr>
 								</thead>
 							</table>
+						</div>
+						<!-- Investment Objective and Risk-O-Meter -->
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md" align="center">
+									<h3 style="color: green" class="text-center font-italic">Risk-O-Meter</h3>
+									<img src="/img/3.png" align="center">
+								</div>
+								<div class="col-md">
+									<div class="col-md" align="center">
+										<h3 style="color: green" class="text-center font-italic">Investment
+											Objective</h3>
+										<p align="left">The primary objective of the Scheme is to
+											generate regular monthly returns through investment primarily
+											in debt securities. The secondary objective of the Scheme is
+											to generate long-term capital appreciation by investing a
+											portion of the Scheme's assets in equity securities. Monthly
+											Income is not assured and is subject to availability of
+											distributable surplus. However, there can be no assurance
+											that the investment objective of the scheme will be achieved.</p>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 
@@ -296,7 +546,18 @@
 				</div>
 			</div>
 		</div>
+		<div class="row">
+			<footer class="footer">
+				<p align="center">
+					©2018 Indiabulls AMC Limited, NAV Data Source: <a
+						href="https://www.amfiindia.com">AMFI India<a>
+				</p>
+			</footer>
+		</div>
 	</div>
+
+
+
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
