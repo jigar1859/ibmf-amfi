@@ -23,7 +23,7 @@ module.controller("UserController", [ "$scope", "UserService",
 				// console.log(value);
 			});
 			
-			// Get Indiabulls Savings Fund
+			// Get Indiabulls Savings Fund (New Added Sept. 2018)
 			$scope.fundSchemeDtoGuilt={
 					fundName: "Indiabulls",
 					schemeName: "Indiabulls Savings Fund"
