@@ -11,6 +11,9 @@ public interface Constants {
 	static final String GET_SCHEME_BY_FUND = "/getSchemeDataByFund";
 	public static String FUND_HOUSE = "Indiabulls";
 	public static String SCHEME_TEST = "Aditya Birla Sun Life Mutual Fund";
+	
+	//All Funds List
+	public static String SCHEME_Indiabulls_Savings_Fund = "Indiabulls Savings Fund";
 	public static String SCHEME_Indiabulls_Gilt_Fund = "Indiabulls Gilt Fund";
 	public static String SCHEME_Indiabulls_Liquid_Fund = "Indiabulls Liquid Fund";
 	public static String SCHEME_Indiabulls_Income_Fund = "Indiabulls Income Fund";
